@@ -1,0 +1,2364 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 8062 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/errub/My project (4)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52121
+Successfully changed project path to: C:/Users/errub/My project (4)
+C:/Users/errub/My project (4)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9176] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3731251504 [EditorId] 3731251504 [Version] 1048832 [Id] WindowsEditor(7,Void) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9176] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3731251504 [EditorId] 3731251504 [Version] 1048832 [Id] WindowsEditor(7,Void) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 11.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/errub/My project (4)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e98)
+    Vendor:   Intel
+    VRAM:     4031 MB
+    Driver:   31.0.101.2127
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008975 seconds.
+- Loaded All Assemblies, in  0.362 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 652ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (7ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.606 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3156 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3619.
+Memory consumption went from 126.4 MB to 126.4 MB.
+Total: 3.235600 ms (FindLiveObjects: 0.355200 ms CreateObjectMapping: 0.235000 ms MarkObjects: 2.546300 ms  DeleteObjects: 0.098100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 277946.540654 seconds.
+  path: Assets/carro/COMPE.cs
+  artifactKey: Guid(8f628b8fc8ffcfb4d8cf6b9b6a8b926b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carro/COMPE.cs using Guid(8f628b8fc8ffcfb4d8cf6b9b6a8b926b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b62902fa7fc35239d538202553e5d1e') in 0.101273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/carro/textures 1/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(51e81d91792c51e4f8df21f48d268a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carro/textures 1/internal_ground_ao_texture.jpeg using Guid(51e81d91792c51e4f8df21f48d268a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '895c5061abed0ff3eba1e3ee5942f9f6') in 0.069915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/E30_Final01.fbx
+  artifactKey: Guid(420a9103d7045954bbd1b0fd90986877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/E30_Final01.fbx using Guid(420a9103d7045954bbd1b0fd90986877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15942ef87c3f85ff23dd682c08641bc1') in 0.294801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/edificios/barrier2Diffuse.png
+  artifactKey: Guid(63fa7ad6f35d7054abc40069da277b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/barrier2Diffuse.png using Guid(63fa7ad6f35d7054abc40069da277b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54dacf19c880f3cc641ef2de17c4a26a') in 0.023561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AudioMixer.mixer
+  artifactKey: Guid(d71f9653c37b77f428b9b96b84377397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AudioMixer.mixer using Guid(d71f9653c37b77f428b9b96b84377397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'f56e14d330eb8cd442cbefce08482397') in 0.014226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/bloques.fbx
+  artifactKey: Guid(0cccd360d1dc5c94f9d3fc25cd15d363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/bloques.fbx using Guid(0cccd360d1dc5c94f9d3fc25cd15d363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c66fcf6a2a62854350439009134bf66d') in 0.258785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/edificios/pics/Barrier1.JPG
+  artifactKey: Guid(243eb2f6bf43e4f48bc7d2225b6726cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/pics/Barrier1.JPG using Guid(243eb2f6bf43e4f48bc7d2225b6726cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '889d763204a753d97dabda3aa6b349f0') in 0.014555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/script/tacometro.cs
+  artifactKey: Guid(e21d5447037c3b14aa18809a30013c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/script/tacometro.cs using Guid(e21d5447037c3b14aa18809a30013c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cf6d0d37df5f58f1aac39a717b90cf7') in 0.003151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/edificios/pics/Barrier4.JPG
+  artifactKey: Guid(d5ff6eed989bbdb42b658acd5dc03a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/pics/Barrier4.JPG using Guid(d5ff6eed989bbdb42b658acd5dc03a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b78a20b59cef7b03fea4b2b1ec1742c7') in 0.016015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Skybox1.mat
+  artifactKey: Guid(6567aea91126c8842bfba1346ec52e6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skybox1.mat using Guid(6567aea91126c8842bfba1346ec52e6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06ea5a20c8d82c80717e43f2f6984a3c') in 0.134941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Sewer-hatch.mat
+  artifactKey: Guid(df7b2ef8a5833994cafa9dc32afe2135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Sewer-hatch.mat using Guid(df7b2ef8a5833994cafa9dc32afe2135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e26cf168d718d69c3117b1fe41417d49') in 0.010106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71aa3da76ad4e60985afbf3e358ce6d4') in 0.005636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Bench-1.mat
+  artifactKey: Guid(817da138884b1bb458a0afd57cc6bb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Bench-1.mat using Guid(817da138884b1bb458a0afd57cc6bb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74c84b8f6414eaa5d3ac77fa8f5c28ef') in 0.026985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/edificios/pics/Materials/Barrier2.mat
+  artifactKey: Guid(5bac8aabfbe092641bc272e0a2ac593c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/pics/Materials/Barrier2.mat using Guid(5bac8aabfbe092641bc272e0a2ac593c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29cb1b3b2b96b331843840a00774c252') in 0.007430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/carro/textures 1/Materials/internal_ground_ao_texture.mat
+  artifactKey: Guid(56c78ca49a9e38445a618aa3fe942517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carro/textures 1/Materials/internal_ground_ao_texture.mat using Guid(56c78ca49a9e38445a618aa3fe942517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf74f0c891ef46a667790b021c08b693') in 0.005455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Pole-base.mat
+  artifactKey: Guid(c253732cb67d0be46817dcd85cc34ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Pole-base.mat using Guid(c253732cb67d0be46817dcd85cc34ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b07c2bbe46df5f16874cd815101dbc26') in 0.017201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/edificios/barrier1Diffuse.png
+  artifactKey: Guid(76bcffdecfd0e3b4bb4c16ca8cb0b7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/barrier1Diffuse.png using Guid(76bcffdecfd0e3b4bb4c16ca8cb0b7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d11225d8e370f80391693d7a45005c6') in 0.020930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/MenuPausa.cs
+  artifactKey: Guid(7baca152e1f28bb4081c2825cdbf869e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MenuPausa.cs using Guid(7baca152e1f28bb4081c2825cdbf869e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad09d922a7da5741bc007b3db0ec8963') in 0.003041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Pole-light.mat
+  artifactKey: Guid(8b7309a6c788b664681a337f9101337e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Pole-light.mat using Guid(8b7309a6c788b664681a337f9101337e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8e23de8e73b2d899b353aaf2bd0d0ce') in 0.008087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/competitivo 2.unity
+  artifactKey: Guid(a429bf8a83fef23429d6d29795a576c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/competitivo 2.unity using Guid(a429bf8a83fef23429d6d29795a576c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea44c4e19b45b029eba89d9b6b2750c4') in 0.003396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imagen de WhatsApp 2024-05-05 a las 14.09.23_d2de81ce copia.png
+  artifactKey: Guid(59aab449bdb673a4a980e4aed40b74c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imagen de WhatsApp 2024-05-05 a las 14.09.23_d2de81ce copia.png using Guid(59aab449bdb673a4a980e4aed40b74c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '532730bf95614df7319c9cc3c0aa9ded') in 0.037701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/edificios/barrier2NM.png
+  artifactKey: Guid(a1fc5d9675621ea4a9ca2e4e3632df38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/barrier2NM.png using Guid(a1fc5d9675621ea4a9ca2e4e3632df38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0f40b83e3c99b562c005d568d575bf8') in 0.012990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/edificios/pics/Barrier5.JPG
+  artifactKey: Guid(6feab511ccf5b5d4b99bfd9caa329c7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/pics/Barrier5.JPG using Guid(6feab511ccf5b5d4b99bfd9caa329c7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df161f68d8149d17a3b734dd8f3f8772') in 0.027037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b6b40502ea670c1359c3406070231a8') in 0.005903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/edificios/barrier1NM.png
+  artifactKey: Guid(66e56089ab59eb045a0eb25a5480b23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/barrier1NM.png using Guid(66e56089ab59eb045a0eb25a5480b23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9845fae03bef4586aeaa8b300bcb1d26') in 0.013504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/carro/Textures.png
+  artifactKey: Guid(8223a9df71f793545951ec8a6495be30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carro/Textures.png using Guid(8223a9df71f793545951ec8a6495be30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92f22373a99fc5855f4f799b639852b2') in 0.015877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c3f3ebbd1a2bb050e0dfa48fe0942cf') in 0.017064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ebf172c6e18dd17afc5f1bab5f21a22') in 0.003651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1d852f3cdc6a18733b01083bdde1a2e') in 0.052663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61250a86b855b6d39b6da125ca0f2c0a') in 0.003670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/script/CarController.cs
+  artifactKey: Guid(22f277e6261a10d449fab1125b49bea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/script/CarController.cs using Guid(22f277e6261a10d449fab1125b49bea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5df0ccaf7eb11037f40d73c55c2757aa') in 0.004253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/carro/textures 1/Porsche-logo-01.png
+  artifactKey: Guid(484d1fb9dd13df44b882acbbfb61042d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carro/textures 1/Porsche-logo-01.png using Guid(484d1fb9dd13df44b882acbbfb61042d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e017acbba26e18cf34d5069b4f42b306') in 0.022391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56e284bed8b8c7de28f62a56f71e18e3') in 0.006367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cb8fcbb5645be7318fe63f76e2c4809') in 0.005011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/edificios/pics/Barrier6.JPG
+  artifactKey: Guid(3bad327e70179094a80bf6760e47b54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/pics/Barrier6.JPG using Guid(3bad327e70179094a80bf6760e47b54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8aa083317a3a6d3fffd70805c66c951') in 0.010685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3a906c4a927d4ac4e119f6f2eeeaad5') in 0.094007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cab4bfb316707f207dbf889e13aa71f0') in 0.003976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb4edbc16bd18f6cfad2229d2132375a') in 0.006216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ModularLowpolyStreetsFree/FBX/Roads.fbx
+  artifactKey: Guid(8f631a0560592c44890f879375e84e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/FBX/Roads.fbx using Guid(8f631a0560592c44890f879375e84e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd482039c9d0dade2b61fc3c6404330c9') in 0.026850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-circ.mat
+  artifactKey: Guid(37bc864c159ad2b42af78734d8a63b8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-circ.mat using Guid(37bc864c159ad2b42af78734d8a63b8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4e7c32073ce201d9f9ac75f4736ee59') in 0.047044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Roads/Crossroads_1_lines_walk.prefab
+  artifactKey: Guid(566725c8dfb238f419a8e9342ffaab05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Roads/Crossroads_1_lines_walk.prefab using Guid(566725c8dfb238f419a8e9342ffaab05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '382a6a10d17f3bd2dad307e8dd3c9265') in 0.047260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Complex/Crossroads_circ.prefab
+  artifactKey: Guid(d175b2d114b22ec43bdb82765e45905e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Complex/Crossroads_circ.prefab using Guid(d175b2d114b22ec43bdb82765e45905e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b732aefdb91217bab6db8a4526347833') in 0.008293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Complex/Crossroads_1.prefab
+  artifactKey: Guid(33ae3a99eddf3ea469439cebc3eb3d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Complex/Crossroads_1.prefab using Guid(33ae3a99eddf3ea469439cebc3eb3d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c0e5e4f20550aaf7d197eed8e8fcab9') in 0.018187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 602
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_RIM_Base_color.png
+  artifactKey: Guid(11469bd72c87a004b8742c2c3f104722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_RIM_Base_color.png using Guid(11469bd72c87a004b8742c2c3f104722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2293525b6f94caefea3670c6d99d81f') in 0.022952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole1.prefab
+  artifactKey: Guid(8dd6e4c395c47934d96ec25c17ccbb58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole1.prefab using Guid(8dd6e4c395c47934d96ec25c17ccbb58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba9f712ec7d4a611372967c506f89c10') in 0.004357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_LENS_NORMAL.png
+  artifactKey: Guid(97df58da17f60c745a26bda89edc8d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_LENS_NORMAL.png using Guid(97df58da17f60c745a26bda89edc8d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad6c225a156c8fdbb3f8ba3bae4892a8') in 0.033290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Cafe_table_1.prefab
+  artifactKey: Guid(b2afe1d4277a42d4fa77ec5e1dda634b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Cafe_table_1.prefab using Guid(b2afe1d4277a42d4fa77ec5e1dda634b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae41a052f2d6f9a91239bb5fca34b0e0') in 0.006591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Complex/Road_1_line_5m.prefab
+  artifactKey: Guid(105ea11a9af6f324fad068c4b2021ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Complex/Road_1_line_5m.prefab using Guid(105ea11a9af6f324fad068c4b2021ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b2ba5a6687bf1e197751c85c94f10d1') in 0.005803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Traffic_light.prefab
+  artifactKey: Guid(900f03829bb8941428e9260f447d5fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Traffic_light.prefab using Guid(900f03829bb8941428e9260f447d5fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1678f736ce1b018cbc2d9d7a97c01ad4') in 0.004944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Sewer_hatch.prefab
+  artifactKey: Guid(cf9f743314e83f945a022e4e1f773e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Sewer_hatch.prefab using Guid(cf9f743314e83f945a022e4e1f773e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34567afcd2673bba22fbfad346b32319') in 0.020227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_TIRE_Base_color.png
+  artifactKey: Guid(92e9d0409fcf14342976cde364025f1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_TIRE_Base_color.png using Guid(92e9d0409fcf14342976cde364025f1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4604605ff94f73454e8d465ebc34e39a') in 0.021065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Road-1-line-turn-1.mat
+  artifactKey: Guid(3a841dc28c751b64899dfd35e43a91f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Road-1-line-turn-1.mat using Guid(3a841dc28c751b64899dfd35e43a91f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b238953c26e770798071fc3761cf5a62') in 0.054572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole_traffic_light.prefab
+  artifactKey: Guid(d037f104ae100f4419eba5cca18510ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole_traffic_light.prefab using Guid(d037f104ae100f4419eba5cca18510ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8a1aa05a5e0d30e6372925e792f1041') in 0.006869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole2.prefab
+  artifactKey: Guid(002e7cb3d86aa5f4f8a14ffe5a8fe3af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole2.prefab using Guid(002e7cb3d86aa5f4f8a14ffe5a8fe3af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7ecbce2e7675ceb786c4f1e301c2367') in 0.019680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_RIM_Metallic.png
+  artifactKey: Guid(d1f48eab15c0b674db71eed5253bbfca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_RIM_Metallic.png using Guid(d1f48eab15c0b674db71eed5253bbfca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f07126f19fcc108543e898c2cadcab8a') in 0.021128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_RIM_Mixed_AO.png
+  artifactKey: Guid(af43f4e26fb38954db3e37b98172cbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_RIM_Mixed_AO.png using Guid(af43f4e26fb38954db3e37b98172cbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ebfe1a84577690b9e9feaea9fc91e50') in 0.033176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Traffic-light-EU-light.mat
+  artifactKey: Guid(2f2fc0768c223304a98f72a08aae9261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Traffic-light-EU-light.mat using Guid(2f2fc0768c223304a98f72a08aae9261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6e777499be888aba143f27cae92daea') in 0.007509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Traffic_cone.prefab
+  artifactKey: Guid(f14800a72eef93b4b8f9e5abc3844f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Traffic_cone.prefab using Guid(f14800a72eef93b4b8f9e5abc3844f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57d80a0a70348d4a3c504e9b985c36a1') in 0.007605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Roads/Pavement.prefab
+  artifactKey: Guid(efe06c0608269fb45a852b9c1aff7526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Roads/Pavement.prefab using Guid(efe06c0608269fb45a852b9c1aff7526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb6ef4d2a584b9b1c6cca1cceacd9ba5') in 0.008023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/script/Carga.cs
+  artifactKey: Guid(523103e0269db2545b14b95720c0d8a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/script/Carga.cs using Guid(523103e0269db2545b14b95720c0d8a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7dcacd37e8f800a843ff4e580ac91d3') in 0.005624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/Brake_Disc_Base_color.png
+  artifactKey: Guid(c9d1747648cd10441910c4dc0c0523c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/Brake_Disc_Base_color.png using Guid(c9d1747648cd10441910c4dc0c0523c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '652c72f2c27316270bf5482ced8103ff') in 0.027347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Roads/Road_1_line.prefab
+  artifactKey: Guid(dfec8d9b723b08e4ab4463a1b8f9cd7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Roads/Road_1_line.prefab using Guid(dfec8d9b723b08e4ab4463a1b8f9cd7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3853d54d7ce06b277f4b6ae71a1d0f27') in 0.010450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mainMenu.cs
+  artifactKey: Guid(d12f38952825947428af226ff763bc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mainMenu.cs using Guid(d12f38952825947428af226ff763bc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13af1c40980923ebbc58a0bfcd7a23c5') in 0.011465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Menú principal/Menú principal.png
+  artifactKey: Guid(2068849971f9d1c47bf0c4e9bdef7984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Menú principal/Menú principal.png using Guid(2068849971f9d1c47bf0c4e9bdef7984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae255a71357101313c64434fcb267752') in 0.021488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_TIRE_Mixed_AO.png
+  artifactKey: Guid(35431158a1afe6543a17283da3e285c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/BMW_E30_M3_TIRE_Mixed_AO.png using Guid(35431158a1afe6543a17283da3e285c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12a6caea4d0ac0c033e37a4ddf058390') in 0.032936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61973461c20e563fa161c69eea4b4903') in 0.021151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+  artifactKey: Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity using Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03e37328b2cb82aca1bec400e9f309aa') in 0.004656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+  artifactKey: Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt using Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93ee67f98de0560907bebe3453dd90db') in 0.005329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd33b362eb4ebc468ce7c7b6f10a29ba8') in 0.022436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11bf9dbfe5cfb923e69d134c4772e1ec') in 0.007506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+  artifactKey: Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity using Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b54e1ed7a610936dd985d2e3004a5736') in 0.002674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+  artifactKey: Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity using Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20edcd3f668a50767b1413cb754455f1') in 0.002992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5eb81b6b5c733bd1d62a632599e33861') in 0.007692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85ce9ccb5a96492d6a6cc9ecac9ae2bd') in 0.011982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/Caliper_Bake_Mixed_AO.png
+  artifactKey: Guid(6685608167fe8a5448eb294d17c1a548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/Caliper_Bake_Mixed_AO.png using Guid(6685608167fe8a5448eb294d17c1a548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ddee1ffab2b7e99790c7785178baca8') in 0.031099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+  artifactKey: Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity using Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f2a73f2e246d5a0f06728fe84f75492') in 0.003118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/Caliper_Bake_Roughness.png
+  artifactKey: Guid(db1ede4f123a3164fb85cf81352f274f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/Caliper_Bake_Roughness.png using Guid(db1ede4f123a3164fb85cf81352f274f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96ad217d08660a869bf25b28ab81c16e') in 0.029834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ddb213af8f8a7cd88f22b6b4a24d53c') in 0.011990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ca8d9e7431d4c20c1d431b5b6aafdc1') in 0.003373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+  artifactKey: Guid(21a509e1d3cd49978623fa564adb6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity using Guid(21a509e1d3cd49978623fa564adb6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4269df8cf74ead0eb61a99c9bc05ab1c') in 0.006052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+  artifactKey: Guid(6250f98e58fe4abbaada5d84b7ca846d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity using Guid(6250f98e58fe4abbaada5d84b7ca846d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '169ce6d5fceab962f6b8ecdb33fc9a73') in 0.003964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+  artifactKey: Guid(03ec435d4b7140e9b2d87f79136d8374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity using Guid(03ec435d4b7140e9b2d87f79136d8374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a21aac2d986c7ac0c77955ebcf375b11') in 0.004402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/startup.wav
+  artifactKey: Guid(99b748decab928d458a93535459bc00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/startup.wav using Guid(99b748decab928d458a93535459bc00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49d824d9a2694c14671dcda1a52f7730') in 0.041951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(4e41c3eddb5c928428f6430487771042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/internal_ground_ao_texture.jpeg using Guid(4e41c3eddb5c928428f6430487771042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf38ab0e5ca5d6a5ddb703bd2b2dba52') in 0.019428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebae4a42b4cf225470dfebdc0315875d') in 0.142836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bab5d20570625f82e58e18c3a11d19ef') in 0.007847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/carro/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(e62adee23dd3bd5468a2e0157d93cb74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carro/textures/internal_ground_ao_texture.jpeg using Guid(e62adee23dd3bd5468a2e0157d93cb74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a4be0d9d54f9063222930b10b9f9495') in 0.015086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/carseleccion2.cs
+  artifactKey: Guid(9c2f7e86e664cdd47b22ce48a17b9b9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carseleccion2.cs using Guid(9c2f7e86e664cdd47b22ce48a17b9b9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2107da4b1eb9450818f533e73aa6ff4a') in 0.009300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Sewer-grill.mat
+  artifactKey: Guid(eaf5240417f4c2046a2d35b26cdf4e69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Sewer-grill.mat using Guid(eaf5240417f4c2046a2d35b26cdf4e69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d9c6ec467d03fa1196dd530f2ada59a') in 0.028749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+  artifactKey: Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity using Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acf5ec82edd251958bd3485259e23609') in 0.003006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3fbcfed19cea1d5ca386c0c032755aa8') in 0.007420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+  artifactKey: Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity using Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab484b8f7641fd6d451cd72772d4d85a') in 0.005677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55dfc69d7577a04cd3b1596aac84941a') in 0.017612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f56b0dc590a52eb7d49cf87fbb2c0a1b') in 0.004788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c7bddf8410d1d97e0000635605cde8f') in 0.003661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+  artifactKey: Guid(1312ae25639a4bae8e25ae223209cc50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs using Guid(1312ae25639a4bae8e25ae223209cc50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29db77a8bd674d04e4114d1e4a920d74') in 0.003659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90d539e38cfc8c3b5736e01a503d1ea3') in 0.003914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf3d81a00a04446519e20d9b2b9dd5aa') in 0.005314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b365f1e694b5643ad3bacc3b9c0a7bac') in 0.004430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  artifactKey: Guid(21256c5b62f346f18640dad779911e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs using Guid(21256c5b62f346f18640dad779911e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33102307b295aa7cafeff69b2654da1c') in 0.006967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+  artifactKey: Guid(16177da2e3254cee91944756d5f8ddd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity using Guid(16177da2e3254cee91944756d5f8ddd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dc41b66ea5e9b0d77ca76c27ef1fbb8') in 0.014264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1c9f81e3a77bd6e421fd733fcb0e989') in 0.004546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b21a0c934e8c883b16a331d7011f7ac') in 0.003451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b32f82c18f629bc2917644ad96bf63cc') in 0.004931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/GameManager.cs
+  artifactKey: Guid(20c5d261c90eccc4f86d73072ae17fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/GameManager.cs using Guid(20c5d261c90eccc4f86d73072ae17fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71dbdc6df36b40b45d6340c39eb60686') in 0.003482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7f50e3bde75a18b67c3ef600f69c19e') in 0.003625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1516af6396084b2402598db70adfd61') in 0.005493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6574540575fddc939d28b554584aaee3') in 0.016877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+  artifactKey: Guid(790744c462254b7ba8038e6ed28b3db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs using Guid(790744c462254b7ba8038e6ed28b3db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '431cb2fcea67e7d0ed29052761880d88') in 0.006293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed7e4d81c1f37baa12d02b78e3c28404') in 0.013267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+  artifactKey: Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity using Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae0c76acd1658f1378470a7bdf45774e') in 0.002853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '753aa23719e7e8284f84b6f9f3a54bc0') in 0.004771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-walk.mat
+  artifactKey: Guid(206d16026d8514549bfa91a62e6a7f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-walk.mat using Guid(206d16026d8514549bfa91a62e6a7f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9db42f50fad569bcb5b48c0ac5f7ec9e') in 0.033717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/FBX/Other.fbx
+  artifactKey: Guid(1ee711c742045db4b974dba96af4d48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/FBX/Other.fbx using Guid(1ee711c742045db4b974dba96af4d48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4fb1d80df3ce836353e4075b3cbdf38') in 0.015783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Cafe-table-1.mat
+  artifactKey: Guid(4d9e55684f3dcdf44ac69eb3fc195388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Cafe-table-1.mat using Guid(4d9e55684f3dcdf44ac69eb3fc195388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8cbb530bbed19c49937b892acd78424') in 0.011684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/Elegir1.unity
+  artifactKey: Guid(a52f923010f42fc489535e009304a1b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Elegir1.unity using Guid(a52f923010f42fc489535e009304a1b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc9da6d88e632737369cbeca8789add2') in 0.005588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Pavement.mat
+  artifactKey: Guid(ad9b23eb22f4c5d4eab51aaec94fda13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Pavement.mat using Guid(ad9b23eb22f4c5d4eab51aaec94fda13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b7880f7a8e273bfd2321ab17d6cb759') in 0.046648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+  artifactKey: Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity using Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70791b878051ef9f23ab6f330988a06e') in 0.017531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Modo.unity
+  artifactKey: Guid(2c31c42df771f3e4eab8f6b59b1dac4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Modo.unity using Guid(2c31c42df771f3e4eab8f6b59b1dac4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9dd95abb75c7b78e219be0a88148e113') in 0.003159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Tree-1.mat
+  artifactKey: Guid(eb2526de915a6254fa658b21b6338e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Tree-1.mat using Guid(eb2526de915a6254fa658b21b6338e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bb8ee86351614adefeae198913094cc') in 0.009757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/carro/Materials/Lamborginhi Aventador_diffuse.mat
+  artifactKey: Guid(0cd44c0857a68ab4d9a2a51241cce651) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/carro/Materials/Lamborginhi Aventador_diffuse.mat using Guid(0cd44c0857a68ab4d9a2a51241cce651) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26ab84c998003ec899141549357ba75d') in 0.006655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/edificios/Materials/barrier1Diffuse.mat
+  artifactKey: Guid(6d295acb54562c54a87b03d881123c46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/Materials/barrier1Diffuse.mat using Guid(6d295acb54562c54a87b03d881123c46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0ed796d3646413b410942d92eb436be') in 0.007585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Loadingbar.png
+  artifactKey: Guid(8657a23f6ea2d374ab01d3f4e2c5433e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Loadingbar.png using Guid(8657a23f6ea2d374ab01d3f4e2c5433e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '672b098f1d095093cc5aedf8df69601e') in 0.031753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/edificios/pics/Barrier3.JPG
+  artifactKey: Guid(2b6efadf4cf7ca5458e0a4385ebd64d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/pics/Barrier3.JPG using Guid(2b6efadf4cf7ca5458e0a4385ebd64d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '904048942dfb6409819b5b20e13f26b7') in 0.025216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/logo.png
+  artifactKey: Guid(1511137a1f080c341867798eab507168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/logo.png using Guid(1511137a1f080c341867798eab507168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c08007d83c64914f6b40cae811fc2365') in 0.026655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6910e7117ee67967971bc287ab8c4749') in 0.004479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/edificios/edificios.fbx
+  artifactKey: Guid(35173684966c26d4091ac50be5923596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/edificios.fbx using Guid(35173684966c26d4091ac50be5923596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebf72f77fa011a39a9cb8dcb0b76d20a') in 0.275584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Cafe-chair-1_Normal.png
+  artifactKey: Guid(e514198592647944b846793cd075ec9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Cafe-chair-1_Normal.png using Guid(e514198592647944b846793cd075ec9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5df435c4abe08715f5ac23f47dfa9f6') in 0.009298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Sewer-hatch_Normal.png
+  artifactKey: Guid(4818ddd58ce06e94498da7eb7812fb72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Sewer-hatch_Normal.png using Guid(4818ddd58ce06e94498da7eb7812fb72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ac0ca84ea91cfa531692b0dbe8001cf') in 0.011565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/glassbreak.wav
+  artifactKey: Guid(dc452eea59c09f143a12d7bc36719458) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/glassbreak.wav using Guid(dc452eea59c09f143a12d7bc36719458) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a968722f785e7ab07c7d96e0becdcc90') in 0.045124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Trash-can-1_AlbedoGloss.png
+  artifactKey: Guid(b0afdc87d6ad6014f893624098468ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Trash-can-1_AlbedoGloss.png using Guid(b0afdc87d6ad6014f893624098468ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c119460751d41d0fc90ba9d55936c177') in 0.023628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '919a093259ce913df56582242045f265') in 0.011824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24553bb9049a48138af186837c141a17') in 0.010165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be575b9e6fc93d822484b18142bc745a') in 0.014642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Bench-1_AlbedoGloss.png
+  artifactKey: Guid(bf7f7600a10541d498fc91c44220c04c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Bench-1_AlbedoGloss.png using Guid(bf7f7600a10541d498fc91c44220c04c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c2918a7d2c3be7f3cc87bd418767b6d') in 0.021653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Traffic-light-EU-light_AlbedoGloss.png
+  artifactKey: Guid(ca3e2eeec3613754f90a24606fde8431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Traffic-light-EU-light_AlbedoGloss.png using Guid(ca3e2eeec3613754f90a24606fde8431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da82ad73810f9315211158714f79f352') in 0.009681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Trash-can-1_Normal.png
+  artifactKey: Guid(0cb939d4b5a522a45b6960130d9c9c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Trash-can-1_Normal.png using Guid(0cb939d4b5a522a45b6960130d9c9c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b428ad153343ae8a72c6bb893aefb622') in 0.014275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Cafe-table-1_Normal.png
+  artifactKey: Guid(353a9fd282c85ce4fac3d77b24132abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Cafe-table-1_Normal.png using Guid(353a9fd282c85ce4fac3d77b24132abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8df4119352afd4d4d29f40a7df604879') in 0.024499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Trash-can-1_Metall.png
+  artifactKey: Guid(7f5c8d2dbdf90a94099d6c6db8a5827b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Trash-can-1_Metall.png using Guid(7f5c8d2dbdf90a94099d6c6db8a5827b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '758f173c5fd016b466b6018ecf92b1d3') in 0.010548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Hydrant_red_AlbedoGloss.png
+  artifactKey: Guid(6bebc08eb7c539543882e48d8be044ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Hydrant_red_AlbedoGloss.png using Guid(6bebc08eb7c539543882e48d8be044ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00a5b8a4a129b489be30259eff708a05') in 0.015357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-1_AlbedoGloss.png
+  artifactKey: Guid(271dcad24f902b249a7773fc0b239778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-1_AlbedoGloss.png using Guid(271dcad24f902b249a7773fc0b239778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9717aed6ec507a395e0bd99d7f21173f') in 0.024716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Cafe-chair-1_Metall.png
+  artifactKey: Guid(cba47619c6b80bc459f744503cb78524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Cafe-chair-1_Metall.png using Guid(cba47619c6b80bc459f744503cb78524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e0f9cdcd685d38cd2f746d4bf8dfb4f') in 0.010749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Bench-1_Normal.png
+  artifactKey: Guid(c961c4dad44c8d34990b1c929d370fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Bench-1_Normal.png using Guid(c961c4dad44c8d34990b1c929d370fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b83df57879dcaa17e7b5fda26ab05f3') in 0.012822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Traffic-cone_AO.png
+  artifactKey: Guid(35c2ddfe368e88a49b7e6befefecf070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Traffic-cone_AO.png using Guid(35c2ddfe368e88a49b7e6befefecf070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79d52a6fde5279dc3dcaa88e1ca75206') in 0.028610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd92fdcbb1cd175d1c3bbb0849233071') in 0.022231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ec7093b1acf7feb3820390de55c3694') in 0.029104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Border_AlbedoGloss.png
+  artifactKey: Guid(058a3fcbc1b65df499fd588df334e07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Border_AlbedoGloss.png using Guid(058a3fcbc1b65df499fd588df334e07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '251769ab57f3132181ff151d267576d8') in 0.012493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4372629b25cf90749e600161134e5201') in 0.015430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c876d7c9624803ae6008beabe3e85bb9') in 0.007463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/edificios/pics/Barriers2.JPG
+  artifactKey: Guid(faa1c1c8baea4e940be4f74d4a705c2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/pics/Barriers2.JPG using Guid(faa1c1c8baea4e940be4f74d4a705c2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09468336e71ae4659e4876193f9a6c59') in 0.026875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+  artifactKey: Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt using Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '357ce1d53218d98b7fe2f5e984a7b18d') in 0.003965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '183508adcbe1a0099ccc2992670b350e') in 0.005749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/det3.wav
+  artifactKey: Guid(7e5ddcb036fb4fa43a34f6b116cf39ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/det3.wav using Guid(7e5ddcb036fb4fa43a34f6b116cf39ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9975329f179dbec3466ed739213731f7') in 0.030662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60077f0503dedf37643ae0dee2e9401b') in 0.023417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3408579e74bc165f76a46f6d4a07314b') in 0.005163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Pole_base_comp.prefab
+  artifactKey: Guid(687bed6654853fc48b16eb6a7e6d22de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Pole_base_comp.prefab using Guid(687bed6654853fc48b16eb6a7e6d22de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '738bfadb826cbdb5f79d1a4548d034c6') in 0.013316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3fca39d2563c5b6ec3e6e392e26364a2') in 0.021650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '201a7d8201b1d01b4f316a2406de7174') in 0.023137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9779b73eb41faf48c6d6317ea35544aa') in 0.010092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b77a597fde75ef8d4b40e76ccae441c') in 0.020745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_AlbedoGloss.png
+  artifactKey: Guid(85726c6f2d7dcc9419744e1a61daacad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_AlbedoGloss.png using Guid(85726c6f2d7dcc9419744e1a61daacad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d7055c617f5b4a47b20732b20f26698') in 0.032684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/chatter.wav
+  artifactKey: Guid(11f9f300f353d0e4093e03925160c21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/chatter.wav using Guid(11f9f300f353d0e4093e03925160c21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0eded34c93c12a022d6e90465c2ea73f') in 0.033643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7837c06fb0b128b234ccf16fc4d87345') in 0.005224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Tree_area_1_comp.prefab
+  artifactKey: Guid(97b8829923f1e05419b5d6e04df40c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Tree_area_1_comp.prefab using Guid(97b8829923f1e05419b5d6e04df40c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a113892b17dea2c57976433ac24e4bec') in 0.006185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+  artifactKey: Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset using Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '823320309ea06c4bc4b31aecec7b9ce4') in 0.014347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Pavement_AlbedoGloss.png
+  artifactKey: Guid(7407d73a62bba1a4b8b183b3caf851c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Pavement_AlbedoGloss.png using Guid(7407d73a62bba1a4b8b183b3caf851c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae1fac742903ac03d4b64965391bd0c5') in 0.023596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Traffic_light_EU_comp.prefab
+  artifactKey: Guid(1090f9c6b3e14ab4981676a3bb078f44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Traffic_light_EU_comp.prefab using Guid(1090f9c6b3e14ab4981676a3bb078f44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21f505cc66367862fca8383b18371b91') in 0.006942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Traffic_ligth_EU_holder_comp.prefab
+  artifactKey: Guid(1737363912a7aea43a9a1860fe5475df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Traffic_ligth_EU_holder_comp.prefab using Guid(1737363912a7aea43a9a1860fe5475df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75806bf7eb4505d54349ab7ffb1c75b8') in 0.013456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_Normal.png
+  artifactKey: Guid(fab8e5ca7774fa041a5d7cd3374e9eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_Normal.png using Guid(fab8e5ca7774fa041a5d7cd3374e9eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0135c77d12f881d74fa803e2cac4550b') in 0.034681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Border_Normal.png
+  artifactKey: Guid(5d6d0cf21efda314ea33c79250a847ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Border_Normal.png using Guid(5d6d0cf21efda314ea33c79250a847ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d72ce3dbdcb49f3d5eb61bc5f450c6b') in 0.012247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42013d53f289bf65b775025f7db0d7e5') in 0.042975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/ReadMe.txt
+  artifactKey: Guid(e68204c791087f64e80f7c2696e6f8f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/ReadMe.txt using Guid(e68204c791087f64e80f7c2696e6f8f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2ef6eaa53bf94b6165d0d129d094253') in 0.003078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-light_AlbedoGloss.png
+  artifactKey: Guid(1501206ad5b888744bef6bc8d058d6f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-light_AlbedoGloss.png using Guid(1501206ad5b888744bef6bc8d058d6f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0e3c50b704ea43d5168d501ba2e8312') in 0.014208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-light_AO.png
+  artifactKey: Guid(da43db929c6fd264883d411af5527f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-light_AO.png using Guid(da43db929c6fd264883d411af5527f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46927a49f16cd0f299f53b18d00f8a00') in 0.020258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Sewer-hatch_AlbedoGloss.png
+  artifactKey: Guid(e4ef3596f32f7344f89c3678ee85f129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Sewer-hatch_AlbedoGloss.png using Guid(e4ef3596f32f7344f89c3678ee85f129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41673ce77aa12b6aafaa2fab4cf42d32') in 0.011721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Tree-1_AlbedoGloss.png
+  artifactKey: Guid(ec8b758ad2e6401469988c59147efabe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Tree-1_AlbedoGloss.png using Guid(ec8b758ad2e6401469988c59147efabe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47a6d9a762215612b0542fcf0a4dfe95') in 0.014708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/chatter.wav
+  artifactKey: Guid(f0ba6d2af1c19c24ab82fac79a159bff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/chatter.wav using Guid(f0ba6d2af1c19c24ab82fac79a159bff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ad1f28b262d980d796c77f60bc58be2') in 0.030391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Turbo/TurboBlow1.wav
+  artifactKey: Guid(fe7d483597e1b604a8f6f21f68b9df07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Turbo/TurboBlow1.wav using Guid(fe7d483597e1b604a8f6f21f68b9df07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b5da046da052e0613232761708bdf80') in 0.032273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/fs-sub.wav
+  artifactKey: Guid(cea4743486cf1834e91b37e2cfeff67d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/fs-sub.wav using Guid(cea4743486cf1834e91b37e2cfeff67d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '507a34c41ca34a91d09356fde84482a7') in 0.019049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/det2.wav
+  artifactKey: Guid(f41a4e49ec191c84b865615f6ee950d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/det2.wav using Guid(f41a4e49ec191c84b865615f6ee950d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d332167b06818b68f1e9ba57b43916b') in 0.026513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/med_on.wav
+  artifactKey: Guid(52ee6439e2a5bf749832ea3e0c42d1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/med_on.wav using Guid(52ee6439e2a5bf749832ea3e0c42d1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10f336a101e6a7ac9a812d359194dd76') in 0.021761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Turbo/TurboBlow2.wav
+  artifactKey: Guid(823e15bf810982849a39b4368dfdaf27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Turbo/TurboBlow2.wav using Guid(823e15bf810982849a39b4368dfdaf27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8b421075f2a452ae354e85ac6ca956c') in 0.039292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/det3.wav
+  artifactKey: Guid(4cdf41d2dcddc35408cdef208ef77546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/det3.wav using Guid(4cdf41d2dcddc35408cdef208ef77546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffa33d375f612ea90d0369ccd269c3d5') in 0.020540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/low_on.wav
+  artifactKey: Guid(7cc945fccaddf0c48a6fa20065d0d762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/low_on.wav using Guid(7cc945fccaddf0c48a6fa20065d0d762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81554597c10355fa5a6395ae67717ee6') in 0.028369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Misc/Brakes.wav
+  artifactKey: Guid(4b6a38decd073724fb0aebb87b9ae8ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Misc/Brakes.wav using Guid(4b6a38decd073724fb0aebb87b9ae8ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a3cfa6fbef512b5e15244572b4510cf') in 0.035106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting4.WAV
+  artifactKey: Guid(af63e188bf4d51d458ed8680ad764a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting4.WAV using Guid(af63e188bf4d51d458ed8680ad764a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e63dac7acc5ba3bcb8d3628d82e3edb7') in 0.030908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Crash/carimpact2.mp3
+  artifactKey: Guid(4abd67c7ac40ada409601bee936fab5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Crash/carimpact2.mp3 using Guid(4abd67c7ac40ada409601bee936fab5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b27e39867c58233fd01c76fc9502fb0') in 0.037496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/detidle.wav
+  artifactKey: Guid(a104b1ee0608ba54a812fd49a19d9f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/detidle.wav using Guid(a104b1ee0608ba54a812fd49a19d9f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24d43abf5c58fc016a312a4b14d2f543') in 0.033366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/fm-sub.wav
+  artifactKey: Guid(a33a84022474b28469829d02b03acc33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/fm-sub.wav using Guid(a33a84022474b28469829d02b03acc33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de37e90dd66e6423fc3b671671135df6') in 0.019443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/maxRPM.wav
+  artifactKey: Guid(23303bc2857931747a69691ba7addedb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/maxRPM.wav using Guid(23303bc2857931747a69691ba7addedb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b39a1838ccdd0b1b57aa2173d460abb0') in 0.033781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting3.WAV
+  artifactKey: Guid(d16b0aad793dafa4fb78adaae796fbfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting3.WAV using Guid(d16b0aad793dafa4fb78adaae796fbfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c402667c96c23fedfbedd584e03d40b') in 0.027912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/fs-lancer.wav
+  artifactKey: Guid(a2739f82479e7f14092a710ff90bf7eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/fs-lancer.wav using Guid(a2739f82479e7f14092a710ff90bf7eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cab90693ab08be25d35148bfc714822f') in 0.034148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting5.WAV
+  artifactKey: Guid(f5993d9cca0a2804f93ce20e421cbf04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting5.WAV using Guid(f5993d9cca0a2804f93ce20e421cbf04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d6ac820cace02ec5372c4c610c6da21') in 0.028087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Wheel/SandSkid.wav
+  artifactKey: Guid(59e038dfc28ad83419aff1c81f974134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Wheel/SandSkid.wav using Guid(59e038dfc28ad83419aff1c81f974134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72a51adf22f44c2673e91c6d606f0412') in 0.038644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/startup.wav
+  artifactKey: Guid(3d9cc668ff2f3734a81bdb7943afe78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/startup.wav using Guid(3d9cc668ff2f3734a81bdb7943afe78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c1fcd9f2652f841b9bae56b34177771') in 0.032959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Turbo/Turbo.WAV
+  artifactKey: Guid(7f48c51367eb26f4bb55673f28ae5404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Turbo/Turbo.WAV using Guid(7f48c51367eb26f4bb55673f28ae5404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4baef98d93200d206583bbb8143bc197') in 0.029969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/rm-lancer.wav
+  artifactKey: Guid(a863df9e97d815c41acec948f30a6524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Lancer/lancer/rm-lancer.wav using Guid(a863df9e97d815c41acec948f30a6524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9590ee8d831c312ebe0819c04ab490dd') in 0.030186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/low_off.wav
+  artifactKey: Guid(3909986b916ea7a4b9a35c647f7c5abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/low_off.wav using Guid(3909986b916ea7a4b9a35c647f7c5abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76022858e709864c92f9d5ba2cde22c2') in 0.029385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-walk_AlbedoGloss.png
+  artifactKey: Guid(7a4865adc0775244680dd0944a0424c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-walk_AlbedoGloss.png using Guid(7a4865adc0775244680dd0944a0424c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7bf01089ca964bed8f75d5b5714c00f') in 0.018770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5be98245ef2abc8b5bdc0094bc23e571') in 0.006108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/rt-sub.wav
+  artifactKey: Guid(47df105961429694889779317fce73e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/subaru/rt-sub.wav using Guid(47df105961429694889779317fce73e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef9dc44242ae979b16b31a432fb185a0') in 0.029513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Tree-1_Normal.png
+  artifactKey: Guid(f84799ec4bc50a24fb280837dcca4bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Tree-1_Normal.png using Guid(f84799ec4bc50a24fb280837dcca4bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f858db1f8c12d9cea1513eb8f872bd73') in 0.012181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb329ea40d35fc8e8d53db850c540443') in 0.009969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Pavement_Normal.png
+  artifactKey: Guid(4772b2b72c2786448bc673269bbb6615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Pavement_Normal.png using Guid(4772b2b72c2786448bc673269bbb6615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8fe7408443b2bc492dd0882a77dba8c') in 0.032882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting2.WAV
+  artifactKey: Guid(51d3f215e07c15a41aab4038522df8d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Gear/GearShifting2.WAV using Guid(51d3f215e07c15a41aab4038522df8d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53c941168bb0e2f2baae44e23803e1d6') in 0.028084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '542cd4fb339cd1cbaacf18c56af7663a') in 0.027806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e25f3cc58eda71e6042845678a3cfd1') in 0.005255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98e3bc1b01ccb3193ff30b65f6b48235') in 0.022881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc8f62f0aec3052e048f66956e6e0a06') in 0.016622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-1_Normal.png
+  artifactKey: Guid(94ce58bb592704547bcf0212b1e1551f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-1_Normal.png using Guid(94ce58bb592704547bcf0212b1e1551f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5e6b9f1b3efb3a3960048584f27eb29') in 0.011095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/high_on.wav
+  artifactKey: Guid(0c62ed23f67dfb647a66e0b33f8083d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Engine/high_on.wav using Guid(0c62ed23f67dfb647a66e0b33f8083d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b89e53035eb4c7ec4160c54c600366e0') in 0.036048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6b08629bad6d4edaa2576c0b435e95a') in 0.005476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-base_AO.png
+  artifactKey: Guid(c10196052270d674090214a549f88495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Textures/Pole-base_AO.png using Guid(c10196052270d674090214a549f88495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dedc84e56bb97f7e88bd58ac8069153') in 0.009491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Tree_1_comp.prefab
+  artifactKey: Guid(aa94a0fc203a0fa4e93aa20245f319b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Components/Tree_1_comp.prefab using Guid(aa94a0fc203a0fa4e93aa20245f319b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '973831622b44841de03c7a9020f63a8c') in 0.006132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/ReadMe.txt
+  artifactKey: Guid(cd4dd2ee78e985e4c848657076db91a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/PC Computer - Colin McRae Rally 20 - Subaru/ReadMe.txt using Guid(cd4dd2ee78e985e4c848657076db91a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c3bcedac7315625b0856b425e7ec7b0') in 0.006941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Scenes/textures/Brake_Disc_Roughness.png
+  artifactKey: Guid(efb8d36109f2cfe4081d6287d2694dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Scenes/textures/Brake_Disc_Roughness.png using Guid(efb8d36109f2cfe4081d6287d2694dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '414ab8d14fba496a6c0b920ed72c93ba') in 0.031018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Misc/Wind.wav
+  artifactKey: Guid(6c7312d1af74e3f4599722894161fafc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/Sounds/Misc/Wind.wav using Guid(6c7312d1af74e3f4599722894161fafc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '906b4558dfd25d572d27d858f7863662') in 0.029872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9b2179ca0f429e21a961734baad4802') in 0.009880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+  artifactKey: Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity using Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc5126a179519839fc8d5a4a6305699b') in 0.003317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kart_club_4k.exr
+  artifactKey: Guid(fa39af20bc22bc44e8bc89189a68e4f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kart_club_4k.exr using Guid(fa39af20bc22bc44e8bc89189a68e4f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '315db4a871516674e144f4f0420b766b') in 0.070911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Tree-area-1.mat
+  artifactKey: Guid(965261c5d0adae54c9845f2569fb56db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Tree-area-1.mat using Guid(965261c5d0adae54c9845f2569fb56db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd441af26020031d6eea09a60dc1a84e2') in 0.007820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lamborghini_Aventador.fbx
+  artifactKey: Guid(76fb2f21566c28841a9da97a3075063e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lamborghini_Aventador.fbx using Guid(76fb2f21566c28841a9da97a3075063e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '906ea2e2ac028ca064b4b99e0c710c41') in 0.039916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-circ_Normal.png
+  artifactKey: Guid(f7c73d20fcb30194580917eae6199a73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-circ_Normal.png using Guid(f7c73d20fcb30194580917eae6199a73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f52a5e66e0975165341f265af58815f') in 0.014016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/edificios/edificios6.fbx
+  artifactKey: Guid(6714a7281fccea7489df41b2937c4b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/edificios/edificios6.fbx using Guid(6714a7281fccea7489df41b2937c4b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efa4cbce87ba99b00a842f3bc17cdaff') in 0.026662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Other/Pole1.mat
+  artifactKey: Guid(8654194a4a9755d4aa0bd32d6fe0cd4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Other/Pole1.mat using Guid(8654194a4a9755d4aa0bd32d6fe0cd4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c1e199ef266737d1d9d4b8d4ef1bd89') in 0.009814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3620.
+Memory consumption went from 74.4 MB to 74.4 MB.
+Total: 3.949100 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.236500 ms MarkObjects: 3.377200 ms  DeleteObjects: 0.018300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3620.
+Memory consumption went from 74.7 MB to 74.7 MB.
+Total: 3.630100 ms (FindLiveObjects: 0.266900 ms CreateObjectMapping: 0.198700 ms MarkObjects: 3.147400 ms  DeleteObjects: 0.016400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.607 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.324 seconds
+Domain Reload Profiling: 1929ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (442ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1324ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3623.
+Memory consumption went from 124.0 MB to 124.0 MB.
+Total: 2.814800 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.185900 ms MarkObjects: 2.282800 ms  DeleteObjects: 0.088900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3623.
+Memory consumption went from 75.8 MB to 75.8 MB.
+Total: 3.874100 ms (FindLiveObjects: 0.415100 ms CreateObjectMapping: 0.374800 ms MarkObjects: 3.036400 ms  DeleteObjects: 0.046800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 6.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1276ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3626.
+Memory consumption went from 125.9 MB to 125.9 MB.
+Total: 3.272700 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.195300 ms MarkObjects: 2.730200 ms  DeleteObjects: 0.060500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3626.
+Memory consumption went from 77.7 MB to 77.7 MB.
+Total: 2.812600 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.179000 ms MarkObjects: 2.318200 ms  DeleteObjects: 0.016700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1208ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3629.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 2.972400 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.163800 ms MarkObjects: 2.522700 ms  DeleteObjects: 0.042200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3629.
+Memory consumption went from 79.6 MB to 79.6 MB.
+Total: 2.905100 ms (FindLiveObjects: 0.273500 ms CreateObjectMapping: 0.207000 ms MarkObjects: 2.405600 ms  DeleteObjects: 0.017900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3632.
+Memory consumption went from 129.8 MB to 129.8 MB.
+Total: 10.089400 ms (FindLiveObjects: 2.680600 ms CreateObjectMapping: 1.805700 ms MarkObjects: 5.493100 ms  DeleteObjects: 0.094000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
