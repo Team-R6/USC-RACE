@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "My project (4).sln"
+    "dotnet.defaultSolution": "usc.sln"
 }
